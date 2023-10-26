@@ -9,12 +9,14 @@
     "build": "tsup src/index.ts --format cjs,esm --dts --sourcemap",
     "build:watch": "tsup src/index.ts --format cjs,esm --dts --sourcemap --watch",
     "lint": "tsc",
-    "lint:watch": "tsc --watch"
+    "lint:watch": "tsc --watch",
+    "prepare": "changesets init"
   },
   "keywords": [],
   "author": "Ilyès Hernandez",
   "license": "MIT",
   "devDependencies": {
+    "@changesets/cli": "^2.26.2",
     "tsup": "^7.2.0",
     "typescript": "^5.2.2"
   }
