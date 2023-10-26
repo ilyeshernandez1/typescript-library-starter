@@ -10,7 +10,7 @@
     "build:watch": "tsup src/index.ts --format cjs,esm --dts --sourcemap --watch",
     "lint": "tsc",
     "lint:watch": "tsc --watch",
-    "prepare": "pnpm changesets init"
+    "prepare": "pnpm changeset init"
   },
   "keywords": [],
   "author": "Ilyès Hernandez",
